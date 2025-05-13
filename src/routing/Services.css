@@ -1,0 +1,160 @@
+.services-container{
+    margin: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    color: white;
+
+}
+
+.services-container .services-box{
+    padding: 1rem 2.5rem;
+    background: rgba(130, 129, 129, 0.362);
+    border-radius: 1rem;
+    border: 0.2rem solid rgba(130, 129, 129, 0.665) ;
+    transition: 0.4s;
+}
+
+.services-container .services-box:hover{
+    border-color: aqua;
+    transform: scale(1.02);
+}
+
+.services-box .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-box .icon i{
+    font-size: 2.5rem;
+    transition: 0.4s;
+}
+
+.services-box:hover .icon:not(a i){
+    color: aqua
+}
+
+.services-box .icon a{
+    display: inline-flex;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 0.5rem;
+    padding-bottom: 0.2em;
+    transition: 0.4s;
+
+}
+
+.services-box:hover .icon a{
+    background: aqua;
+}
+.services-box .icon a i{
+    color: rgb(86, 85, 85);
+    transform: rotate(225deg);
+    padding-top: 0.6rem;
+    padding-right: 0.3rem;
+}
+
+.services-box .icon a:hover i{
+    transform: rotate(180deg);
+}
+
+.services-box h3{
+    font-size: 2rem;
+    margin: 0;
+    transition: 0.4s;
+}
+.services-box:hover h3{
+    color: aqua;
+}
+
+/*......*/
+
+.services-container1{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    color: white;
+
+}
+
+.services-container1 .services-box{
+    padding: 1rem 2.5rem;
+    background: rgba(130, 129, 129, 0.362);
+    border-radius: 1rem;
+    border: 0.2rem solid rgba(130, 129, 129, 0.665) ;
+    transition: 0.4s;
+}
+
+.services-container1 .services-box:hover{
+    border-color: aqua;
+    transform: scale(1.02);
+}
+
+.services-box .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-box .icon i{
+    font-size: 2.5rem;
+    transition: 0.4s;
+}
+
+.services-box:hover .icon:not(a i){
+    color: aqua
+}
+
+.services-box .icon a{
+    display: inline-flex;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 0.5rem;
+    padding-bottom: 0.2em;
+    transition: 0.4s;
+
+}
+
+.services-box:hover .icon a{
+    background: aqua;
+}
+.services-box .icon a i{
+    color: rgb(86, 85, 85);
+    transform: rotate(225deg);
+    padding-top: 0.6rem;
+    padding-right: 0.3rem;
+}
+
+.services-box .icon a:hover i{
+    transform: rotate(180deg);
+}
+
+.services-box h3{
+    font-size: 2rem;
+    margin: 0;
+    transition: 0.4s;
+}
+.services-box:hover h3{
+    color: aqua;
+}
+
+@media(max-width:1650px){
+    .services-container1{
+        margin: 3rem;
+    }
+}
+
+@media(max-width:850px){
+    .services-container1{
+        margin: 2.5rem;
+    }
+    .body2 h1{
+        margin: 0;
+        padding-left: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+}

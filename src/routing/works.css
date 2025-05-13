@@ -1,0 +1,38 @@
+.works{
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+.body1{
+    height:100vh ;
+}  
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+@media(max-width:1650px){
+    .body1 {
+        margin-right: 0;
+    }
+    
+}
+@media(max-width:1210px){
+    .works{
+        padding-left: 500px;
+    }
+}
+
+
+@media(max-width:850px){
+    .works{
+        padding-top: 20px;
+        padding: 0;
+    }
+    .container3{
+        grid-template-columns: 1fr;
+    }
+}

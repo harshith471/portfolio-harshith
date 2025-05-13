@@ -1,0 +1,122 @@
+.image{
+    height: 600px;
+    animation: floatImage 4s ease-in-out infinite;
+    filter: drop-shadow(-5px 10px 10px rgb(0, 247, 255));
+
+}
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-1.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+@media(max-width:850px){
+    .container{
+        flex-direction: column-reverse;
+        padding-top: 100px;
+    }
+}
+.left{
+    padding-left: 300px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+}
+
+.right{
+    padding-right: 300px;
+}
+button{
+    padding: 13px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    background-color: aqua;
+    border-color: aqua;
+    font-weight: 900;
+    filter: drop-shadow(0px 0px 3px rgb(0, 247, 255));
+}
+button:hover{
+    filter: drop-shadow(0px 0px 10px rgb(0, 247, 255));
+    cursor: pointer;
+    padding: 15px;
+    padding-inline: 33px;
+}
+.container .media{
+    display: inline-flex;
+    grid-column-gap: 20px;
+    
+}
+.container .media a{
+    padding-inline: 10px;
+    border: 2px solid aqua;
+    border-radius: 50px;
+    font-size: 40px;
+    padding-top: 15px;
+    color: aqua;
+    
+}
+.container .media a:hover{
+    border: 2px solid aqua;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: aqua;
+    color: rgb(49, 49, 49);
+    filter: drop-shadow(0px 0px 10px rgb(0, 247, 255));
+}
+@media(max-width:850px){
+    .image{
+        height: 400px;
+    }
+    .right{
+        padding: 0;
+    }
+    .left{
+        padding: 0;
+        padding-bottom: 100px;
+    }
+
+    
+    
+}
+@media(max-width:510px){
+    h1{
+        font-size: 50px;
+        margin-left: 60px;
+    }
+    h2{
+        padding-left: 60px;
+        font-size: 40px;
+    }
+    .image{
+        height: 400px;
+    }
+    .media{
+        padding-left: 60px;
+    }
+    .right{
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+
+    .left{
+        padding-bottom: 0;
+
+        padding-bottom: 60px;
+    }
+}
