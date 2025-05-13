@@ -18,7 +18,7 @@ const home = () => {
       <div className='container'>
         <div className='left'>
           <h1>
-          Hi,<br></br>This is <span style={{fontWeight:'bold', color:'aqua', fontSize:'70px'}}>Harshith</span> 
+          Hi,<br></br>This is <span style={{fontWeight:'bold', color:'aqua', fontSize:'70px'}}>Harshithhhhhhh</span> 
         </h1>
         <h2>I'm a 
           <span style={{fontWeight:'bold', color:'aqua', marginLeft:'20px'}}>
