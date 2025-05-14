@@ -28,6 +28,7 @@ export default function ImageCarousel() {
   };
 
   return (
+    <>
     <div style={styles.carousel} className="body1">
       <h1 className="works">My <span style={{color:'aqua'}}>Works</span></h1>
       <div className="container3">
@@ -56,7 +57,8 @@ export default function ImageCarousel() {
       </div>
       
     </div>
-  );
+    </>
+  )
 }
 
 const styles = {

@@ -147,6 +147,19 @@
     }
 }
 
+@media(max-width:1584px){
+    .services-container{
+        margin: 1rem;
+        margin-right: -0.2rem;
+    }
+
+}
+@media(max-width:1518px){
+    .services-container{
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+}
+
 @media(max-width:850px){
     .services-container1{
         margin: 2.5rem;

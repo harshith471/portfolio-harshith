@@ -1,9 +1,12 @@
 :root{
-  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body {
-
+html,body {
     font-family: Arial, sans-serif;
     background-image: url('https://res.cloudinary.com/nihars3/image/upload/v1696232927/photo-1619429858348-2d5ad1547e6c_nnvynb.jpg');
     background-attachment: fixed;
+    overflow-x: hidden;
+    width: 100%;
 }
