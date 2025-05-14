@@ -3,6 +3,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import './About.css'
 
 const About = () => {
+
   const [text] = useTypewriter({
       words: ['DONTHAMSETTY JAYA SATYA SAI HARSHITH'],
       typeSpeed:80,

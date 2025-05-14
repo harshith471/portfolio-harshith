@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Home.css'
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
@@ -27,10 +27,13 @@ const home = () => {
           <Cursor />  
         </h2>
         <div className='media'>
-          <button>Download CV</button>
-          <a className='social'><FaLinkedinIn /></a>
-          <a className='social'><FaFacebookF /></a>
-          <a className='social'><FaInstagram /></a>
+          <button onClick={() => window.open("https://res.cloudinary.com/dwko0nqi4/image/upload/v1744475326/harshith1_cv1_page-0001_umeb9w.jpg", "download")}>
+              Download CV
+          </button>
+
+          <a className='social' href='https://www.linkedin.com/in/donthamsetty-jaya-satya-sai-harshith-b227b3286' ><FaLinkedinIn /></a>
+          <a className='social' href='https://www.facebook.com/share/1FdyFF8gDv/' ><FaFacebookF /></a>
+          <a className='social' href='https://www.instagram.com/itz__harshith____?igsh=MTNqd2ExZDR6amp6dg==' ><FaInstagram /></a>
         </div>
         </div>
         

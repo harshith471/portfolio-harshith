@@ -39,8 +39,8 @@ h2{
 
 
 button{
-    padding: 13px;
-    padding-inline: 30px;
+    padding: 25px;
+    padding-inline: 33px;
     border-radius: 20px;
     background-color: aqua;
     border-color: aqua;
@@ -75,6 +75,9 @@ button:hover{
     color: rgb(49, 49, 49);
     filter: drop-shadow(0px 0px 10px rgb(0, 247, 255));
 }
+
+
+
 @media(max-width:1450px){
     .container{
         padding: 0;
