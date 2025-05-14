@@ -107,7 +107,11 @@ button:hover{
         height: 400px;
     }
     .media{
-        padding-left: 60px;
+        padding-left: 40px;
+    }
+    .container .media a{
+        font-size: 25px;
+        padding-top: 10px ;
     }
     .container{
         margin: 0;

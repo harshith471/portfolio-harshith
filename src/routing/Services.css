@@ -143,20 +143,16 @@
 
 @media(max-width:1650px){
     .services-container1{
+        grid-template-columns: 1fr;
+        margin: 3rem;
+    }
+    .services-container{
         margin: 3rem;
     }
 }
-
-@media(max-width:1584px){
+@media(max-width:1600px){
     .services-container{
-        margin: 1rem;
-        margin-right: -0.2rem;
-    }
-
-}
-@media(max-width:1518px){
-    .services-container{
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-columns: 1fr;
     }
 }
 

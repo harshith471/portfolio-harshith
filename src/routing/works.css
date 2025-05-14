@@ -8,39 +8,87 @@
 
 .container3{
     display: flex;
-    position: absolute;
     align-items: center;
     justify-content: space-between;
     gap: 5rem;
     margin: 0 auto;
     margin-left: 5rem;
     margin-right: 5rem;
-    max-width: 130rem;
 }
 @media(max-width:1650px){
-    .body1 {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
     .container3{
-        position: absolute;
-        margin-right: px;
+        margin-right: 100px;
         overflow: hidden;
     }
-    
+    .right2{
+        height: 60vh;
+    }
 }
 
 
-@media(max-width:850px){
+
+@media(max-width:1400px){
+    .works{
+        margin-top: 0px;
+    }
+    .right2 img{
+        height: 60vh;
+        width: 100px;
+        margin: 0;
+    }
+    .right2{
+        margin: 0;
+        width: 80vh;
+    }
     .works{
         padding-top: 20px;
         padding: 0;
     }
     .container3{
         flex-direction: column;
+        margin: 0;
 
+    }
+}
+@media(max-width:850px){
+    .body1{
+        margin-top: 100px;
+    }
+    .container3{
+        gap: 0;
+    }
+    .works{
+        font-size: 60px;
+    }
+    .right2 img{
+        height: 50vh;
+    }
+    .right2{
+        width: 70vh;
+    }
+}
+@media(max-width:850px){
+    .body1{
+        margin-top: 20rem;
+    }
+}
+@media(max-width:510px){
+    .body1{
+        margin-top: 8rem;
+    }
+    .works{
+        padding-left: 0;
+        margin-left: 0;
+        font-size: 50px;
+    }
+    .body1{
+        padding-top: 0;
+    }
+    .right2{
+        width: 50vh;
+        height: 50vh;
+    }
+    .right2 img{
+        height: 40vh;
     }
 }
