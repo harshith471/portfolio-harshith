@@ -2,9 +2,20 @@ import React from 'react'
 import useScrollReveal from '../hooks/useScrollReveal';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import './About.css'
-import { Bounce, Fade, Flip, Hinge, JackInTheBox, Slide, Zoom } from "react-awesome-reveal";
+import { Bounce, Fade, Flip, Hinge, JackInTheBox, Slide, Zoom, Reveal } from "react-awesome-reveal";
+import { keyframes } from '@emotion/react';
 
 const About = () => {
+  const customSlide = keyframes`
+  from {
+    opacity: 0;
+    transform: translateX(100px); /* <- distance */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+`;
 
   useScrollReveal();
 
@@ -24,19 +35,24 @@ const About = () => {
           <img src='https://res.cloudinary.com/dwko0nqi4/image/upload/v1746891353/edit225_oerkco.png' className='image'></img>
           </Zoom>
         </div> 
-        <Fade duration={1300} direction='right' triggerOnce='false' fraction={0.5}><div className='right1 ' >
+          
+        <Reveal keyframes={customSlide} duration={1000} fraction={0.5} triggerOnce>
+          <div className='right1 ' >
+        
           <h1 className='name'>
             <span style={{fontWeight:'bold', color:'aqua'}}>
                       {text}
                     </span>
                     
                     </h1>
+          
           <p className='para'>
             Hi everyone! My name is Harshith, and I’m currently a fourth-year ECE student. I’ve always been fascinated by how technology works, and over the past year, I’ve been focusing a lot on learning HTML, CSS, and Javascript. I really enjoy solving programming challenges — especially ones that involve logic, pattern matching, or algorithms. Apart from coding, I love in Photography, Editing and Graphic Designing. As all of these I am using Photoshop, Premiere Pro, Adobe Illustrator and Figma. I’m always learning, experimenting, and pushing creative boundaries. Let’s create something beautiful together!
           </p>
 
         </div>
-        </Fade>
+        </Reveal>
+        
         
 
       </div>
