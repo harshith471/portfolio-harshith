@@ -6,6 +6,7 @@ import { IoColorPaletteOutline } from "react-icons/io5";
 import { BiSolidPaint } from "react-icons/bi";
 import { RiSlideshow3Line } from "react-icons/ri";
 import { IoCameraOutline } from "react-icons/io5";
+import { Bounce, Fade, Flip, Hinge, JackInTheBox, Slide, Zoom } from "react-awesome-reveal";
 
 
 const Skills = () => {
@@ -13,6 +14,7 @@ const Skills = () => {
     <div className='body2'>
       <h1 className='heading'>My <span style={{color:'aqua'}}>Services</span></h1>
       <div className='services-container'>
+        <Zoom duration={500} delay={200}>
         <div className='services-box'>
           <div className="icon">
             <i><FaCode /></i>
@@ -21,7 +23,9 @@ const Skills = () => {
           <h3>Web Development</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
         </div>
+        </Zoom>
 
+        <Zoom duration={500} delay={400}>
         <div className='services-box'>
           <div className="icon">
             <i><BiSolidPaint /></i>
@@ -29,8 +33,9 @@ const Skills = () => {
           </div>
           <h3>UI/UX Design</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
-        </div>
+        </div></Zoom>
 
+        <Zoom duration={500} delay={600}>
         <div className='services-box'>
           <div className="icon">
             <i><IoColorPaletteOutline /></i>
@@ -38,9 +43,10 @@ const Skills = () => {
           </div>
           <h3>Graphic Design</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
-        </div>
+        </div></Zoom>
       </div>
       <div className='services-container1'>
+        <Zoom duration={500} delay={800}>
         <div className='services-box'>
           <div className="icon">
             <i><RiSlideshow3Line /></i>
@@ -48,8 +54,9 @@ const Skills = () => {
           </div>
           <h3>Vedio Editing</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
-        </div>
+        </div></Zoom>
 
+        <Zoom duration={500} delay={1000}>
         <div className='services-box'>
           <div className="icon">
             <i><IoCameraOutline /></i>
@@ -57,7 +64,7 @@ const Skills = () => {
           </div>
           <h3>Photography</h3>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
-        </div>
+        </div></Zoom>
 
       </div>
     </div>

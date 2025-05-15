@@ -1,8 +1,12 @@
 import React from 'react'
+import useScrollReveal from '../hooks/useScrollReveal';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import './About.css'
+import { Bounce, Fade, Flip, Hinge, JackInTheBox, Slide, Zoom } from "react-awesome-reveal";
 
 const About = () => {
+
+  useScrollReveal();
 
   const [text] = useTypewriter({
       words: ['DONTHAMSETTY JAYA SATYA SAI HARSHITH'],
@@ -14,9 +18,11 @@ const About = () => {
       <div className='container2'>
         
         <div className='left1'>
+          <Zoom triggerOnce='false'>
           <img src='https://res.cloudinary.com/dwko0nqi4/image/upload/v1746891353/edit225_oerkco.png' className='image'></img>
+          </Zoom>
         </div> 
-        <div className='right1'>
+        <Bounce duration={1500} direction='right' triggerOnce='false'><div className='right1 '>
           <h1 className='name'>
             <span style={{fontWeight:'bold', color:'aqua'}}>
                       {text}
@@ -28,6 +34,8 @@ const About = () => {
           </p>
 
         </div>
+        </Bounce>
+        
 
       </div>
       

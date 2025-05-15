@@ -1,6 +1,5 @@
 import React from 'react'
-import  "./routing/home"
-import Home from './routing/home'
+import Home from './routing/Home'
 import './App.css'
 import Navbar from './components/Navbar'
 import About from './routing/About'

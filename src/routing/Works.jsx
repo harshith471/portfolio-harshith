@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './works.css'
+import useScrollReveal from '../hooks/useScrollReveal';
 
 const slides = [
   {
@@ -17,6 +18,9 @@ const slides = [
 ];
 
 export default function ImageCarousel() {
+
+  
+  useScrollReveal();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goPrev = () => {
@@ -29,7 +33,7 @@ export default function ImageCarousel() {
 
   return (
     <>
-    <div style={styles.carousel} className="body1">
+    <div style={styles.carousel} className="body1 ">
       <h1 className="works">My <span style={{color:'aqua'}}>Works</span></h1>
       <div className="container3">
         <div className="right2">
