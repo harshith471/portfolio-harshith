@@ -7,7 +7,7 @@ const useScrollReveal = () => {
     const sr = ScrollReveal();
 
     // Clean up previous reveals (for hot reload during dev)
-    sr.clean('.reveal-bottom, .reveal-left, .reveal-right, .reveal-zoom, .reveal-fade ,.reveal-about');
+    sr.clean('.reveal-bottom, .reveal-left, .reveal-right,.reveal-child, .reveal-zoom, .reveal-fade ,.reveal-about');
 
     sr.reveal('.reveal-bottom', {
       origin: 'bottom',
@@ -48,11 +48,11 @@ const useScrollReveal = () => {
       viewFactor: 0.4,
     });
     sr.reveal('.reveal-child', {
-origin: 'bottom',
-distance: '60px',
-duration: 2000,
-interval: 200, // <- Delay between each child element
-reset: false,
+    origin: 'bottom',
+    distance: '60px',
+    duration: 2000,
+    interval: 200, // <- Delay between each child element
+    reset: false,
 });
 
     sr.reveal('.reveal-fade', {
