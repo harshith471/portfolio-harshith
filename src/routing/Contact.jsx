@@ -3,10 +3,12 @@ import './Contact.css'
 import { FaPhone } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { Bounce, Fade, Flip, Hinge, JackInTheBox, Slide, Zoom } from "react-awesome-reveal";
 
 const Contact = () => {
   return (
     <div className='contact-container'>
+      <Fade>
       <div className="contact-box">
         <h2>Let's work Together</h2>
         <p className='desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit necessitatibus delectus aliquam voluptates ex, in pariatur deserunt earum, voluptate reiciendis ipsam maxime deleniti dolore. Enim quam non placeat debitis soluta? </p>
@@ -46,7 +48,7 @@ const Contact = () => {
           <button type='submit' className='btn '> Send Message</button>
         </form>
       </div>
-      
+      </Fade>
 
     </div>
   )

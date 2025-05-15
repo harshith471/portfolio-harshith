@@ -14,15 +14,17 @@ const About = () => {
   })
   return (
     <div className='body'>
+      <Fade direction='down' fraction={0.3} triggerOnce>
       <h1 className='heading'>About <span style={{color:'aqua'}}>Me</span></h1>
+      </Fade>
       <div className='container2'>
         
         <div className='left1'>
-          <Zoom triggerOnce='false'>
+          <Zoom triggerOnce='false' fraction={0.5}>
           <img src='https://res.cloudinary.com/dwko0nqi4/image/upload/v1746891353/edit225_oerkco.png' className='image'></img>
           </Zoom>
         </div> 
-        <Bounce duration={1500} direction='right' triggerOnce='false'><div className='right1 '>
+        <Fade duration={1300} direction='right' triggerOnce='false' fraction={0.5}><div className='right1 ' >
           <h1 className='name'>
             <span style={{fontWeight:'bold', color:'aqua'}}>
                       {text}
@@ -34,7 +36,7 @@ const About = () => {
           </p>
 
         </div>
-        </Bounce>
+        </Fade>
         
 
       </div>

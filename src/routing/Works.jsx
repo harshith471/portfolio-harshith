@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './works.css'
 import useScrollReveal from '../hooks/useScrollReveal';
+import { Bounce, Fade, Flip, Hinge, JackInTheBox, Slide, Zoom } from "react-awesome-reveal";
 
 const slides = [
   {
@@ -34,8 +35,11 @@ export default function ImageCarousel() {
   return (
     <>
     <div style={styles.carousel} className="body1 ">
+      <Fade direction="down" fraction={0.3} triggerOnce>
       <h1 className="works">My <span style={{color:'aqua'}}>Works</span></h1>
+      </Fade>
       <div className="container3">
+        <Fade direction="left" fraction={0.5} triggerOnce>
         <div className="right2">
            <div style={styles.imageWrapper}>
         
@@ -53,11 +57,12 @@ export default function ImageCarousel() {
           </div>
 
         </div>
-        
-       
+        </Fade>
+        <Fade direction="right" fraction={0.5} triggerOnce>
         <div className="left2">
           <p style={styles.caption}>{slides[currentIndex].text}</p>
         </div>
+        </Fade>
       </div>
       
     </div>
