@@ -150,9 +150,16 @@
         margin: 3rem;
     }
 }
+
 @media(max-width:1600px){
     .services-container{
         grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:1200px){
+    .body2{
+        margin-top: 250px;
     }
 }
 
@@ -160,10 +167,22 @@
     .services-container1{
         margin: 2.5rem;
     }
+    .body2{
+        margin-top: 350px;
+    }
     .body2 h1{
         margin: 0;
         padding-left: 0;
         padding-top: 0;
         text-align: center;
+    }
+    .heading{
+        font-size: 60px;
+    }
+}
+
+@media(max-width:510px){
+    .body2{
+        margin-top: 150px;
     }
 }

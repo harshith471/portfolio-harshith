@@ -6,22 +6,63 @@
     height:100vh ;
 }  
 
+.head1{
+    font-size: 60px;
+    color: aqua;
+}
+.head2{
+    font-size: 50px;
+}
+
+.para1{
+    font-size: 30px;
+}
+
+.list{
+    font-size: 25px;
+}
+
 .container3{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     gap: 5rem;
     margin: 0 auto;
     margin-left: 5rem;
     margin-right: 5rem;
 }
+.left2{
+    max-width: 130vh;
+    text-align: left;
+}
 @media(max-width:1650px){
     .container3{
         margin-right: 100px;
         overflow: hidden;
+        gap: 10px;
     }
     .right2{
-        height: 60vh;
+        height: 70vh;
+    }
+    .left2{
+        max-width: 140vh;
+        margin: 0;
+        border: 2px solid red;
+    }
+    .head1{
+        font-size: 40px;
+        margin: 0;
+    }
+    .head2{
+        font-size: 30px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .para1{
+        font-size: 20px;
+    }
+    .list{
+        font-size: 20px;
     }
 }
 
@@ -31,14 +72,13 @@
     .works{
         margin-top: 0px;
     }
-    .right2 img{
-        height: 60vh;
-        width: 100px;
-        margin: 0;
-    }
     .right2{
         margin: 0;
         width: 80vh;
+    }
+    .left2{
+        text-align: center;
+        max-width: 100vh;
     }
     .works{
         padding-top: 20px;
@@ -47,6 +87,7 @@
     .container3{
         flex-direction: column;
         margin: 0;
+        align-items: center;
 
     }
 }
@@ -74,7 +115,7 @@
 }
 @media(max-width:510px){
     .body1{
-        margin-top: 8rem;
+        margin-top: 11rem;
     }
     .works{
         padding-left: 0;
@@ -90,5 +131,20 @@
     }
     .right2 img{
         height: 40vh;
+    }
+    .head1{
+        font-size: 30px;
+    }
+    .head2{
+        font-size: 20px;
+    }
+    .para1{
+        font-size: 15px;
+    }
+    .text ul{
+        font-size: 15px;
+    }
+    .left2{
+        max-width: 50vh;
     }
 }

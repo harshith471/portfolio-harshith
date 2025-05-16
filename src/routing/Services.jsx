@@ -22,7 +22,7 @@ const Skills = () => {
             <a href=""><i><FaArrowLeft /></i></a>
           </div>
           <h3>Web Development</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
+          <p>I specialize in developing responsive and user-friendly websites that are both visually appealing and highly functional. Whether it's a personal blog, business site, or e-commerce platform, I ensure smooth performance and seamless navigation across all devices.</p>
         </div>
         </Zoom>
 
@@ -33,7 +33,7 @@ const Skills = () => {
             <a href=""><i><FaArrowLeft /></i></a>
           </div>
           <h3>UI/UX Design</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
+          <p>With a focus on user-centric design, I create intuitive and engaging interfaces that enhance the overall user experience. My approach combines creativity with usability to ensure every interaction is smooth, meaningful, and enjoyable.</p>
         </div></Zoom>
 
         <Zoom duration={500} delay={400} triggerOnce='false' fraction={0.5}>
@@ -43,7 +43,7 @@ const Skills = () => {
             <a href=""><i><FaArrowLeft /></i></a>
           </div>
           <h3>Graphic Design</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
+          <p>I bring ideas to life through bold and effective visual design. From logos and branding to social media posts and marketing materials, I deliver graphics that capture attention and communicate your message clearly.</p>
         </div></Zoom>
       </div>
       <div className='services-container1'>
@@ -54,7 +54,7 @@ const Skills = () => {
             <a href=""><i><FaArrowLeft /></i></a>
           </div>
           <h3>Vedio Editing</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
+          <p>I turn raw footage into compelling video content with professional editing techniques. Whether it's for social media, events, or promotional purposes, I enhance the visual narrative through pacing, effects, and sound design.</p>
         </div></Zoom>
 
         <Zoom duration={500} delay={800} triggerOnce='false' fraction={0.3}>
@@ -64,7 +64,7 @@ const Skills = () => {
             <a href=""><i><FaArrowLeft /></i></a>
           </div>
           <h3>Photography</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor repudiandae, quaerat qui ad minus nostrum explicabo architecto magnam autem voluptatibus laudantium itaque mollitia. Nostrum voluptatem iure vitae debitis, aliquid reprehenderit!</p>
+          <p>I offer high-quality photography services that capture moments with clarity and emotion. From portraits and events to product and lifestyle shoots, I focus on storytelling through the lens.</p>
         </div></Zoom>
 
       </div>

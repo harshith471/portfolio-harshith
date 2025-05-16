@@ -5,16 +5,55 @@ import { Bounce, Fade, Flip, Hinge, JackInTheBox, Slide, Zoom } from "react-awes
 
 const slides = [
   {
-    image: "https://res.cloudinary.com/dwko0nqi4/image/upload/v1744455880/child-1_d8uugm.jpg",
-    text: <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex amet, quaerat tempora provident obcaecati dolorem minus atque accusantium aut repudiandae soluta. Culpa sit necessitatibus accusamus reprehenderit iure odit placeat deleniti!</p>
+    image: "https://res.cloudinary.com/dwko0nqi4/image/upload/v1747319325/frontend1_s7r7ui.jpg",
+    text: <div className="text">
+      <h1 className="head1">1.Frontend Project</h1>
+      <h2 className="head2">Company Portfolio Website</h2>
+    <p  className="para1">A clean and professional company portfolio website designed to showcase services, completed projects, and contact information for potential clients. Built as a responsive template suitable for startups, agencies, and small businesses.</p>
+    <ul className="list">
+      <li><span style={{fontWeight:'bold', color:'aqua'}}>Role: </span> Full-stack Developer & Designer</li><br />
+      <li><span style={{fontWeight:'bold', color:'aqua'}}>Tech Stack: </span> HTML, CSS, JavaScript, GitHub Pages</li><br />
+      <li><span style={{fontWeight:'bold', color:'aqua'}}>Features: </span> <br /> Responsive layout for all screen sizes <br></br>Smooth scrolling and section-based navigation
+
+<br />Dedicated sections for About, Services, Portfolio, and Contact
+
+<br />Clean UI with modern design principles
+
+</li>
+</ul>
+    
+    </div>
   },
   {
-    image: "https://res.cloudinary.com/dwko0nqi4/image/upload/v1744455880/d3_inwcgn.jpg",
-    text: <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex amet, quaerat tempora provident obcaecati dolorem minus atque accusantium aut repudiandae soluta. Culpa sit necessitatibus accusamus reprehenderit iure odit placeat deleniti!</p>
+    image: "https://res.cloudinary.com/dwko0nqi4/image/upload/v1744455880/child-1_d8uugm.jpg",
+    text:<div className="text">
+      <h1 className="head1">2.Poster</h1>
+      <h2 className="head2">Greeting poster Design</h2>
+    <p className="para1">Created a colorful and joyful digital poster for Panacea IT Services to celebrate Children’s Day. The design features a lively animated child and playful elements to evoke the spirit of childhood. </p>
+    <ul className="list">
+      <li><span style={{fontWeight:'bold', color:'aqua'}}>Role: </span> Designer</li><br />
+      <li><span style={{fontWeight:'bold', color:'aqua'}}>Tech Stack: </span> Adobe Photoshop </li><br />
+      <li><span style={{fontWeight:'bold', color:'aqua'}}>About services: </span> <br /> I offer creative and tailored design solutions that effectively communicate your message and engage your target audience. From concept development to final execution, I focus on combining aesthetics with functionality. 
+</li>
+</ul>
+    
+    </div>
   },
   {
     image: "https://res.cloudinary.com/dwko0nqi4/image/upload/v1744455880/p8_m4s8s5.jpg",
-    text: <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex amet, quaerat tempora provident obcaecati dolorem minus atque accusantium aut repudiandae soluta. Culpa sit necessitatibus accusamus reprehenderit iure odit placeat deleniti!</p>
+    text:<div className="text">
+      <h1 className="head1">3.Poster</h1>
+      <h2 className="head2">Advertisement Design</h2>
+    <p className="para1">The company describes itself as having profound knowledge and extensive experience in web and mobile app development, delivering solutions for various industries like automotive, advertising, motion picture & video, consulting, retail, legal, and more.</p>
+    <ul className="list">
+      <li><span style={{fontWeight:'bold', color:'aqua'}}>Role: </span> Designer</li><br />
+      <li><span style={{fontWeight:'bold', color:'aqua'}}>Tech Stack: </span> Adobe Photoshop </li><br />
+      <li><span style={{fontWeight:'bold', color:'aqua'}}>About service: </span> <br /> I offer creative and tailored design solutions that effectively communicate your message and engage your target audience. From concept development to final execution, I focus on combining aesthetics with functionality. 
+
+</li>
+</ul>
+    
+    </div>
   }
 ];
 
